@@ -1,3 +1,5 @@
+// import Logo from "../assets/logo.png";
+
 function Header() {
   return (
     <>
@@ -5,13 +7,9 @@ function Header() {
         <nav className="bg-white border-gray-200 px-4 lg:px-4 py-2.5 dark:bg-gray-800">
           <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <a href="#" className="flex items-center">
-              <img
-                src="https://cdn.pixabay.com/photo/2016/10/12/23/22/owl-1736292_1280.png"
-                className="mr-3 h-6 sm:h-20"
-                alt="TrendX"
-              />
+              {/* <img src={Logo} className="mr-3 h-6 sm:h-20" alt="TrendX" /> */}
               <span className="self-center text-2xl text-blue-800  font-semibold whitespace-nowrap dark:text-white">
-                BluBirds
+                ShareWords
               </span>
             </a>
             <div className="flex items-center lg:order-2">
