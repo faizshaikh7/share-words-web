@@ -1,16 +1,17 @@
-import "./App.css";
+import "./index.css";
 import ExploreCard from "./components/ExploreCard";
 import FeaturedCard from "./components/FeaturedCard";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 // import PageView from "./components/PageView";
 
 function App() {
   return (
-    <>
+    <div className="main-class">
       {/* add header */}
       <Header />
 
-      <div className="container pt-14 mx-auto space-y-8">
+      <div className="main-container container pt-14 mx-auto space-y-8">
         <div className="text-start cursor-pointer gap-3 mx-auto max-w-full group grid grid-cols-12">
           <img
             src="https://source.unsplash.com/random/480x360"
@@ -70,7 +71,9 @@ function App() {
           Explore More
         </span>
       </div>
-    </>
+
+      <Footer />
+    </div>
   );
 }
 
